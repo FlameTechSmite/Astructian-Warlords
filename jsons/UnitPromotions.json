@@ -1,0 +1,23 @@
+[
+	{
+		"name": "Water Magic",
+		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>","Double movement in [Fresh Water]"],
+	},
+	{
+"name": "Water Mastery I",
+"prerequisites":["Water Magic"],
+		"uniques": ["[+15]% Strength <when fighting in [Oasis] tiles> <when attacking>","[+15]% Strength <when fighting in [Marsh] tiles> <when attacking>"],
+	},
+	{
+"name": "Water Mastery II",
+"prerequisites":["Water Mastery I"],
+		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles> <when attacking>","[+15]% Strength <when fighting in [Fresh Water] tiles> <when attacking>"],
+"unitTypes": ["Water Magic"],
+	},
+	{
+"name": "Water Mastery III",
+"prerequisites":["Water Mastery II"],
+		"uniques": ["[+15]% Strength <when attacking>","[+15]% Strength <when fighting in [Coastal] tiles> <when attacking>"],
+"unitTypes": ["Water Magic"],
+	},
+]

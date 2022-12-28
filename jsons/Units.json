@@ -1,0 +1,31 @@
+[
+	{
+		"name": "Hydromancer",
+		"unitType": "Water Magic",
+		"uniqueTo": "Livon",
+		"replaces": "Crossbowman",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 25,
+		"range": 2,
+		"cost": 180,
+		"requiredTech": "Education",
+		"promotions": ["Quick Study","Water Magic"],
+  "uniques": ["[-30]% Strength <when fighting in [Desert] tiles>","[-30]% Strength <when fighting in [Tundra] tiles>"],
+		"attackSound": "watermagic"
+},
+{
+	"name": "Thornguard",
+		"unitType": "Sword",
+		"uniqueTo": "Livon",
+		"replaces": "Lancer",
+		"movement": 2,
+		"strength": 30,
+		"range": 1,
+		"cost": 180,
+		"requiredTech": "Metallurgy",
+		"promotions": ["March","Cover I"], 
+		"uniques": ["[+30]% Strength <vs [Melee] units> <when defending>","[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	}
+]

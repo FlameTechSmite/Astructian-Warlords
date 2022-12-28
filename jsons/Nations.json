@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Livon",
+		"leaderName": "Rein",
+		"adjective": ["Livonian"],
+		"startBias": ["Plains","Lakes"],
+		"preferredVictoryType": "Cultural/Domination",
+  "style": "Livonian",
+		
+		"startIntroPart1": "Defend your people with undying fervor, o great Queen Rein of Livon. When your subjects are in danger, put your martial prowess to use, and strile down the enemy, even if it shackles your nation's treasury. Remind your people that they are above simple barbarians during peacetime, and build. build in such ways that will convey Livonian cultural dominance over all the world.",
+		"startIntroPart2": "With the past behind you, both its good and its bad, can you once again lead your people? Defend them through a shield of one thousand thorns? Can you build a civilization to stand the test of time?",
+		
+		"declaringWar": "You are a threat to my people, so you must be destroyed!",
+		"attacked": "You dare threaten me and my people?! You'll soon regret underestimating us.",
+		"defeated": "Augh, Defeat. So this is what Father meant... Very well, please treat my people with respect...",
+		"introduction": "Greetings, foreigner. I am Queen Rein of Livon. Beside me is one of my retainers, Robbie. We are pleased to make your aquaintance. ",
+		
+		"neutralHello": "Greetings.",
+		"neutralLetsHearIt": ["What is it?.","Yes?","What do you need?"],
+		"neutralNo": ["I cannot accept that.","No!","I refuse."],
+		"neutralYes": ["Very good.","Sure.","Acceptable."],
+
+		"hateHello": "What do you want?!",
+		"hateLetsHearIt": ["Make it quick!","I have no time for your insolence!","My bodyguard is running out of patience for you."],
+		"hateNo": ["Your demands are unbalanced.","I wholeheartedly refuse!","You dare suggest such an unfair trade?"],
+		"hateYes": ["Fine.","Sigh, alright then.","Very well..."],
+		
+		"afterPeace": "My people are now safe, that is all that matters.",
+		"tradeRequest": "We extend this generous trade offer to you.",
+
+		"outerColor": [40,70,185],
+		"innerColor": [255,255,255],
+		"uniqueName": "Cultural Soverignty",
+		"uniques": ["[+20]% Strength for units fighting in [Friendly Land] <when at war>","[+20]% Production when constructing [Culture] buildings [in all cities] <when not at war>","[+20]% Strength <after discovering [Civil Service]> <when at war>"],
+		"cities": ["Livon","Rosagri","Limani","Alesia","Montanapoli","Geluagri","Vaporagri","Aspida","Ligneaterra",
+			"Piasenero","Profitis"],
+	},
+]
