@@ -1,0 +1,14 @@
+[
+	{
+		"name": "Lytion",
+		"replaces": "Temple",
+		"uniqueTo": "Livon",
+		"cost": 80,
+		"science": 3,
+		"culture": 3,
+		"faith": 3,
+		"maintenance": 3,
+  "uniques": ["New [Water Magic] units start with [15] Experience [in this city]","Free [Hydromancer] appears"],
+		"requiredTech": "Philosophy"
+	},
+]
