@@ -4,24 +4,24 @@
 		"leaderName": "Rein",
 		"adjective": ["Livonian"],
 		"startBias": ["Plains","Lakes"],
-		"preferredVictoryType": "Cultural/Domination",
+		"preferredVictoryType": "Cultural",
   "style": "Livonian",
 		
-		"startIntroPart1": "Defend your people with undying fervor, o great Queen Rein of Livon. When your subjects are in danger, put your martial prowess to use, and strile down the enemy, even if it shackles your nation's treasury. Remind your people that they are above simple barbarians during peacetime, and build. build in such ways that will convey Livonian cultural dominance over all the world.",
+		"startIntroPart1": "Defend your people with undying fervor, o great Queen Rein of Livon. When your subjects are in danger, put your martial prowess to use, and strike down the enemy, even if it shackles your nation's treasury. Remind your people that they are above simple barbarians during peacetime through your faith and your works. Raise such opulent and magnificent structures that will convey the piety and civility of your people across all the world.",
 		"startIntroPart2": "With the past behind you, both its good and its bad, can you once again lead your people? Defend them through a shield of one thousand thorns? Can you build a civilization to stand the test of time?",
 		
-		"declaringWar": "You are a threat to my people, so you must be destroyed!",
+		"declaringWar": "You must unfortunately be destroyed, lest you encroach upon Livon in the near future.",
 		"attacked": "You dare threaten me and my people?! You'll soon regret underestimating us.",
 		"defeated": "Augh, Defeat. So this is what Father meant... Very well, please treat my people with respect...",
-		"introduction": "Greetings, foreigner. I am Queen Rein of Livon. Beside me is one of my retainers, Robbie. We are pleased to make your aquaintance. ",
+		"introduction": "Greetings, foreigner. I am Queen Rein of Livon. I represent the interest of all peoples under my banner. My court and I are pleased to make your aquaintance. ",
 		
 		"neutralHello": "Greetings.",
 		"neutralLetsHearIt": ["What is it?.","Yes?","What do you need?"],
-		"neutralNo": ["I cannot accept that.","No!","I refuse."],
-		"neutralYes": ["Very good.","Sure.","Acceptable."],
+		"neutralNo": ["I cannot accept that.","I must deny that request.","I refuse."],
+		"neutralYes": ["Very good.","I see the value in this.","Acceptable."],
 
 		"hateHello": "What do you want?!",
-		"hateLetsHearIt": ["Make it quick!","I have no time for your insolence!","My bodyguard is running out of patience for you."],
+		"hateLetsHearIt": ["Make it quick!","I have no time for your insolence!","My patience is wavering..."],
 		"hateNo": ["Your demands are unbalanced.","I wholeheartedly refuse!","You dare suggest such an unfair trade?"],
 		"hateYes": ["Fine.","Sigh, alright then.","Very well..."],
 		
@@ -30,9 +30,44 @@
 
 		"outerColor": [40,70,185],
 		"innerColor": [255,255,255],
-		"uniqueName": "Cultural Soverignty",
-		"uniques": ["[+20]% Strength for units fighting in [Friendly Land] <when at war>","[+20]% Production when constructing [Culture] buildings [in all cities] <when not at war>","[+20]% Strength <after discovering [Civil Service]> <when at war>"],
-		"cities": ["Livon","Rosagri","Limani","Alesia","Montanapoli","Geluagri","Vaporagri","Aspida","Ligneaterra",
-			"Piasenero","Profitis"],
+		"uniqueName": "Shield of One Thousand Thorns",
+		"uniques": ["[+20]% Strength <when fighting in [Friendly Land] tiles> <when at war>","[+25]% maintenance costs <when at war>","[+33]% Production when constructing [Culture] buildings [in all cities] <when not at war>","[+30]% Strength <after discovering [Civil Service]> <when at war>"],
+		"cities": ["Livon","Rosagri","Limani","Alesia","Myrsioi","Geluagri","Vaporagri","Fort Aspida","Altgar Plain",
+			"Piasenero","Profitis", "Ineua Manor"],
+	},
+
+	{
+		"name": "Blazonia",
+		"leaderName": "Camli",
+		"adjective": ["Blazonian"],
+		"startBias": ["Forest","Hill"],
+		"preferredVictoryType": "Domination",
+  "style": "Blazonian",
+		
+		"startIntroPart1": "Long you have struggled to free your people from your dreaded uncle Harcna's tryranny, benevolent King Camli of Blazonia! Through a cunning display of diplomacy, you helped Rein of Livon run Glacenic forces from her domains, in exchange for her support in your civil war against the man who killed your father Adwin the Wise, and usurped your throne. Now the people of Blazonia look to you for new direction. Can you lead Blazonia to greatness with flame and steel? Can you build a civilization to stand the test of time?",
+		
+		"declaringWar": "I sense opportunity in this war, so I shall make it swift!",
+		"attacked": "You seek to draw your sword upon us? We who are forged by gods and by war alike? Very well, I'll be meeting you outside your capital with my army.",
+		"defeated": "I am beaten. You have proven yourself a true warrior. You have my respect.",
+		"introduction": "Welcome to my domain, foreign leader. I am Camli, King by both right and conquest. ",
+		
+		"neutralHello": "Greetings.",
+		"neutralLetsHearIt": ["What is it?"],
+		"neutralNo": ["I refuse."],
+		"neutralYes": ["Acceptable."],
+
+		"hateHello": "What is it, hedge knight?!",
+		"hateLetsHearIt": ["My sword arm is restless."],
+		"hateNo": ["Your arrogance preceeds you."],
+		"hateYes": ["Fine."],
+		
+		"afterPeace": "A sensible agreement. My men shall seathe their swords, for now.",
+		"tradeRequest": "I believe this will benefit us both. What say you?",
+
+		"outerColor": [216,142,63],
+		"innerColor": [153,0,0],
+		"uniqueName": "Born from Fire, Forged by War",
+		"uniques": ["May buy [Melee] units with [Faith] for [2] times their normal Production cost","All newly-trained [Melee] units [in all cities] receive the [Drill I] promotion"],
+		"cities": ["Flaropolis","Wickport","Hachstodd","Hualuc Clan","Cuathli Clan","Tene Clan","Vedrix Clan", "Balthonian Chasm", "Caradoc Clan", "Seludd Clan", "Setullos Clan", "Forest of Resia", ""],
 	},
 ]

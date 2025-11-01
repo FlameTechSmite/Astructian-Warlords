@@ -1,0 +1,11 @@
+Version 1.0!
+- Added The Kingdom of Livon!
+https://github.com/FlameTechSmite/Astructian-Warlords
+Version 1.1!
+- Added Astruct map!
+Version 1.2!
+- Added The Kingdom of Blazonia!
+- Changed unit type "Water Magic to Magic.
+- Made Water Mastery promotions unique to Hydromancer rather than unique to Water Magic.
+- Removed extra diplomacy quotes from Rein.
+- Added "[-30]% Strength <when fighting in [Snow] tiles>" to Hydromancer uniques.

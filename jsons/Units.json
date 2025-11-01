@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Hydromancer",
-		"unitType": "Water Magic",
+		"unitType": "Ranged",
 		"uniqueTo": "Livon",
 		"replaces": "Crossbowman",
 		"movement": 2,
@@ -10,8 +10,8 @@
 		"range": 2,
 		"cost": 180,
 		"requiredTech": "Education",
-		"promotions": ["Quick Study","Water Magic"],
-  "uniques": ["[-30]% Strength <when fighting in [Desert] tiles>","[-30]% Strength <when fighting in [Tundra] tiles>"],
+		"promotions": ["Water Magic"],
+  "uniques": ["[-30]% Strength <when fighting in [Desert] tiles>","[-30]% Strength <when fighting in [Tundra] tiles>","[-30]% Strength <when fighting in [Snow] tiles>"],
 		"attackSound": "watermagic"
 },
 {
@@ -24,8 +24,22 @@
 		"range": 1,
 		"cost": 180,
 		"requiredTech": "Metallurgy",
-		"promotions": ["March","Cover I"], 
+		"promotions": ["Cover I"], 
 		"uniques": ["[+30]% Strength <vs [Melee] units> <when defending>","[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	}
+{
+	"name": "Hechsylg",
+		"unitType": "Sword",
+		"uniqueTo": "Blazonia",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 25,
+		"range": 2,
+		"cost": 150,
+		"requiredTech": "Iron Working",
+		"promotions": ["Drill II"],
+		"uniques": ["[-20]% Strength <when defending>","[+20]% Strength <when attacking>"],
 		"attackSound": "metalhit"
 	}
 ]
